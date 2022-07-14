@@ -15,7 +15,7 @@ setuptools.setup(
   url="https://github.com/Luqaska/frases.py",
   project_urls={
     "Bug Tracker": "https://github.com/Luqaska/frases.py/issues"
-  }
+  },
   requires=["requests"],
   keywords=["API", "frases"]
 )
