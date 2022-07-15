@@ -19,7 +19,7 @@ print(frases.frase()["frase"])
 ```
 
 ## Funciones
-En todos los casos, una frase se vendría a ver algo asi: `{'autor': <autor>, 'frase': <frase>}`. Esta puede venir en listas o no.
+En todos los casos, una frase se vendria a ver algo asi: `{'autor': <autor>, 'frase': <frase>}`. Esta puede venir en listas o no.
 
 - `frase()`: Frase al azar
 	- Respuesta: Frase
