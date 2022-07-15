@@ -7,7 +7,7 @@ f.close()
 setuptools.setup(
   name="frases",
   packages=["frases"],
-  version="0.1.1",
+  version="0.1.2",
   author="Luqaska",
   description="API de frases",
   long_description=long_description,
