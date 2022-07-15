@@ -1,14 +1,16 @@
-# Frases.py
-LibrerÌa de Python para la API de [Las Frases](https://frases.atico.ga)
+Ôªø# Frases.py
+Libreria de Python para la API de [Las Frases](https://frases.atico.ga)
 
-## Instalar
+## Instalar/Actualizar
 ### PyPI
-- `pip install frases`
+`$ pip install frases`
 
 ### Git
-- `git clone https://github.com/Luqaska/frases.py.git`
-- `cd frases`
-- `pip install .`
+```
+$ git clone https://github.com/Luqaska/frases.py.git
+$ cd frases
+$ pip install .
+```
 
 ## Ejemplo
 ```python
@@ -17,9 +19,15 @@ print(frases.frase()["frase"])
 ```
 
 ## Funciones
-- `frase()`: Frase al azar
-- `all()`: Lista de todas las frases disponibles
-- `autor(autor)`: Filtrar por autor (AnÛnimo => False)
-- `buscar(consulta: str)`: Buscar frase por su contenido
+En todos los casos, una frase se vendr√≠a a ver algo asi: `{'autor': <autor>, 'frase': <frase>}`. Esta puede venir en listas o no.
 
-(C) 2022 [Luqaska](https://atico.ga)
+- `frase()`: Frase al azar
+	- Respuesta: Frase
+- `all()`: Lista de todas las frases disponibles
+	- Respuesta: Lista de frases
+- `autor(autor)`: Filtrar por autor (Anonimo => False)
+	- Respuesta: Lista de frases
+- `buscar(consulta: str)`: Buscar frase por su contenido
+	- Respuesta: Lista de frases
+
+~~(C)~~ 2022 [Luqaska](https://atico.ga)
