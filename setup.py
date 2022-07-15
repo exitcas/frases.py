@@ -1,13 +1,13 @@
 import setuptools
 
-f = open("README.md", "r")
+f = open("README.md", "r", encoding='utf-8-sig')
 long_description = f.read()
 f.close()
 
 setuptools.setup(
   name="frases",
   packages=["frases"],
-  version="0.1.2",
+  version="0.1.0-F",
   author="Luqaska",
   description="API de frases",
   long_description=long_description,
